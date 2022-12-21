@@ -13,8 +13,8 @@ import java.util.Scanner;
 public class Calculadora_AsierGonzalez {
 
     static Scanner scanner = new Scanner(System.in);
-    static int numero1 = 0, numero2 = 0; //Variables de entrada
-    static int opcion = -1; //opción del menú
+    static float numero1 = 0, numero2 = 0; //Variables de entrada
+    static float opcion = -1; //opción del menú
 
     public static void main(String[] args) {
         System.out.println("Bienvenido a la calculadora");
@@ -59,10 +59,10 @@ public class Calculadora_AsierGonzalez {
     //Método para recoger las variables de entrada
     public static void pideNumeros() {
         System.out.println("Introduce el primer número:");
-        numero1 = scanner.nextInt();
+        numero1 = scanner.nextFloat();
 
         System.out.println("Introduce el segundo número:");
-        numero2 = scanner.nextInt();
+        numero2 = scanner.nextFloat();
 
     }
 }
